@@ -1,23 +1,85 @@
-# Asteroids
+# Asteroids (English desciption)
 
-Игра "Астероиды"
+Game `Asteroids`
 
-Вам предложено сыграть за корабль с именем "Player". Против Вас играют агрессивные боты "Bot". 
-Ваша задача : убивать астероиды, убивать ботов, собирать бонусы для того, чтобы выжить.
+You are invited to play for the spaceship with name `Player`. Against you play agressive bots named `Bot`.
+Your goal: destroy asteroids, kill bots and collect the bonuses to survive.
 
-Как играть : 
+How to play: 
 
-"Up", "Down", "Left", "Right" - управление кораблем
+`Up`, `Down`, `Left`, `Right` - spaceship control
 
-"Space" - при нажатии корабль стреляет, при отпускании стрельба прекращается
+`Space` - press and hold it for start shooting, release for stop it.
 
-"Tab" - показать статистику игры
+`Tab` - display the game statistics.
 
-"Enter" - начать игру заново
+`Enter` - restart the game.
 
-Действующие бонусы : понижение/повышение скорости корабля (знаки ограничения скорости/снятия ограничений), смена оружия (звездный бластер),
+Bonuses: reduce/increase spaceship speed (signs of speed limit/speed limit cancellation), change weapon (star blaster),
+refueling (canister), remove all asteroids and bonuses from game field (holy grenade), reduce asteroids speed (barrier),
+invulnerable protective screen (shield).
+
+
+![Asteroids.](images/sd.gif)
+
+
+[![Build Status](https://travis-ci.org/cmc-haskell-2017/project-template.svg?branch=master)](https://travis-ci.org/cmc-haskell-2017/project-template)
+
+
+## Build and launch
+
+Build the project with [Stack utility](https://www.haskellstack.org):
+
+```
+stack setup
+stack build
+```
+
+Build and launch sigle game with commands:
+
+```
+stack build && stack exec asteroids
+```
+
+Build and launch multiplayer server with commands: (port number is set as Int number, for example, 8000)
+
+```
+stack build && stack exec asteroids-server <port number>
+```
+
+Build and launch multiplayer client with commands: (IP-adress is set as String, for example, "192.1.0.0")
+
+```
+stack build && stack exec asteroids-client <server IP-adress> <server port number>
+```
+
+To launch GHCi interpreter and automatically load all project modules us a command:
+
+```
+stack ghci
+```
+
+
+# Asteroids (описание на русском языке)
+
+Игра `Астероиды`
+
+Вам предложено сыграть за корабль с именем `Player`. Против Вас играют агрессивные боты `Bot`. 
+Ваша задача: убивать астероиды, убивать ботов, собирать бонусы для того, чтобы выжить.
+
+Как играть: 
+
+`Up`, `Down`, `Left`, `Right` - управление кораблем
+
+`Space` - при нажатии корабль стреляет, при отпускании стрельба прекращается
+
+`Tab` - показать статистику игры
+
+`Enter` - начать игру заново
+
+Действующие бонусы: понижение/повышение скорости корабля (знаки ограничения скорости/снятия ограничений), смена оружия (звездный бластер),
 подзаправка топливом (канистра), удаление всех астероидов и бонусов с игрового поля (святая граната), понижение скорости астероидов (барьер),
-защитный экран неуязвимости (щит) .
+защитный экран неуязвимости (щит).
 
 
 ![Астероиды.](images/sd.gif)
