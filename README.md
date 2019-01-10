@@ -5,7 +5,7 @@ Game `Asteroids`
 You are invited to play for the spaceship with name `Player`. Against you play agressive bots named `Bot`.
 Your goal: destroy asteroids, kill bots and collect the bonuses to survive.
 
-How to play: 
+## How to play: 
 
 `Up`, `Down`, `Left`, `Right` - spaceship control
 
@@ -15,7 +15,7 @@ How to play:
 
 `Enter` - restart the game.
 
-Bonuses: reduce/increase spaceship speed (signs of speed limit/speed limit cancellation), change weapon (star blaster),
+`Bonuses`: reduce/increase spaceship speed (signs of speed limit/speed limit cancellation), change weapon (star blaster),
 refueling (canister), remove all asteroids and bonuses from game field (holy grenade), reduce asteroids speed (barrier),
 invulnerable protective screen (shield).
 
@@ -67,7 +67,7 @@ stack ghci
 Вам предложено сыграть за корабль с именем `Player`. Против Вас играют агрессивные боты `Bot`. 
 Ваша задача: убивать астероиды, убивать ботов, собирать бонусы для того, чтобы выжить.
 
-Как играть: 
+## Как играть: 
 
 `Up`, `Down`, `Left`, `Right` - управление кораблем
 
@@ -77,7 +77,7 @@ stack ghci
 
 `Enter` - начать игру заново
 
-Действующие бонусы: понижение/повышение скорости корабля (знаки ограничения скорости/снятия ограничений), смена оружия (звездный бластер),
+`Действующие бонусы`: понижение/повышение скорости корабля (знаки ограничения скорости/снятия ограничений), смена оружия (звездный бластер),
 подзаправка топливом (канистра), удаление всех астероидов и бонусов с игрового поля (святая граната), понижение скорости астероидов (барьер),
 защитный экран неуязвимости (щит).
 
